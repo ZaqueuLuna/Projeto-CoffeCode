@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/coffee.svg" />
+    <title >CoffeeCode</title>
+    <title>CoffeeCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+    <header>
+        <a href=""> <img src="logo.png" class="logo"alt=""></a>
+        <ul>
+        <li><a href="users.html"><img src="user.svg"></a></li>
+        <li><a href="carrinho.html"><img src="Carrinho.svg"></a></li>
+        <!-- <li><a href="">O que há de novo</a></li>
+        <li><a href="">Contato</a></li> -->
+    </ul>   
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>It's not just Coffee<br>it's<span> CoffeeCode</span></h2>
+            <br>
+            <P>Our coffee was designed and developed exclusively for developers who seek more focus and more concentration to solve their daily tasks, come be better and produce the best.....
+                come to coffeeCode</P>
+                      <a href="carrinho.html">Faça seu pedido aqui </a>
+    </div>
+    <div class="imgBox">
+        <img src="frapuccinochoc.png" class="frapuccino"> 
+    </div>
+    </div>
+    <ul class="thumb">
+        <li><img src="thumbchoc.png"onclick=imgSlider('frapuccinochoc.png') alt=""></li>
+        <li><img src="thumbdocedeleite.png"onclick=imgSlider('frapuccinodocedeleite.png')  alt=""></li>
+        <li><img src="thumbflocos.png"onclick=imgSlider('frapuccinoflocos.png')  alt=""></li>
+    </ul>
+    <ul class="sci">
+        <li><img src="facebook.png" alt=""></li>
+        <li><img src="instagram.png" alt=""></a></li>
+        <li><img src="twitter.png" alt=""></li>
+    </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.frapuccino') .src = anything;
+
+        }
+
+    </script>
+</body>
+</html>
